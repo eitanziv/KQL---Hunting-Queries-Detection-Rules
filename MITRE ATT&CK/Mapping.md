@@ -11,7 +11,7 @@ This section only includes references to queries that can be mapped in the MITRE
 | --- | --- |
 | Initial Access | 15 |
 | Execution | 10 |
-| Persistence | 13 |
+| Persistence | 14 |
 | Privilege Escalation | 7 |
 | Stealth | 20 |
 | Defense Impairment | 9 |
@@ -64,6 +64,7 @@ This section only includes references to queries that can be mapped in the MITRE
 | T1053.005 | Scheduled Task/Job: Scheduled Task | [Scheduled Tasks From AppData Created Or Updated](../Defender%20For%20Endpoint/ScheduledTasksFromAppDataCreatedOrUpdated.md) |
 | T1098 | Account Manipulation | [Account With Password Never Expires Enabled](../Defender%20For%20Identity/AccountWithPasswordNeverExpiresEnabled.md)|
 | T1098 | Account Manipulation | [Password Change After Succesful Brute Force](../Defender%20For%20Identity/PasswordChangeAfterSuccesfulBruteForce.md)|
+| T1098.001 | Account Manipulation: Additional Cloud Credentials | [Unusual Addition Of Credentials To An OauthApp](../Sentinel/UEBA/UnusualAdditionOfCredentialsToAnOauthApp.md) |
 | T1136.001 | Create Account: Local Account | [Local Account Creation](../Defender%20For%20Endpoint/LocalAccountCreated.md) |
 | T1136.001 | Create Account: Local Account | [Local Administrator Account Creations](../Defender%20For%20Endpoint/LocalAdminAdditions.md) |
 | T1136.003 | Create Account: Cloud Account | [Cloud Persistence Activity By User AtRisk](../Azure%20Active%20Directory/CloudPersistenceActivityByUserAtRisk.md) |
@@ -74,6 +75,7 @@ This section only includes references to queries that can be mapped in the MITRE
 | T1543 | Create or Modify System Process  | [Azure ARC Related Persistence Detection](../Defender%20For%20Endpoint/nf_ttp_t1543_scattered-spider_azure_arc_persistence.md) |
 | T1556 | Modify Authentication Process | [Deletion Conditional Access Policy](../Azure%20Active%20Directory/ConditionalAccess%20-%20DeletePolicy.md) |
 | T1556 | Modify Authentication Process | [Change Conditional Access Policy](../Azure%20Active%20Directory/ConditionalAccess%20-%20ChangePolicy.md) |
+
 
 ## Privilege Escalation
 
